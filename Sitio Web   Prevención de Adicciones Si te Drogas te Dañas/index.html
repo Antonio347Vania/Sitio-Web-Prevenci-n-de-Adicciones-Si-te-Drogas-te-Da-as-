@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Las drogas</title>
+</head>
+<body>
+    <header style="background-color: rgb(129, 18, 37); text-align: center; padding: 30px; color: #ffffff; font-weight: bold;">Si te drogas te dañas</header>
+    <!-- Botón hamburguesa -->
+    <button class="hamburger-icon" id="menu-btn">☰</button>
+
+    <!-- Menú lateral -->
+    <nav class="menu-nav" id="menu">
+        <ul>
+            <li><a href="index.html">Las drogas y su clasificación</a></li>
+            <li><a href="Fentanilo.html">Fentanilo</a></li>
+            <li><a href="Metanfetamina.html">Metanfetamina.</a></li>
+            <li><a href="Vapeadores.html">Vapeadores.</a></li>
+            <li><a href="Cannabis.html">Cannabis</a></li>
+            <li><a href="Tabaco..html">Tabaco.</a></li>
+            <li><a href="Alcohol.html">Alcohol.</a></li>
+            <li><a href="Benzodiacepinas..html">Benzodiacepinas.</a></li>
+        </ul>
+    </nav>
+    <h1>Las drogas y su clasificación</h1>
+    <p><b>Propósito</b>Presentar el concepto de droga o sustancia psicoactiva, así como su clasificación con base en los efectos ocasionados en el cuerpo.</p>
+    <p><b>¿Qué son?</b>La Organización Mundial de la Salud (OMS) define el término droga o sustancia psicoactiva comoaquel compuesto de origen natural, semisintético o sintético que produce alguna modificación en una o más funciones en el organismo, sea cual sea la vía de administración.</p>
+    
+    <script>
+        // JavaScript funcional
+        const menuBtn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+    <footer></footer>    
+</body>
+</html>
